@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    background-color: bisque;
+}
+.home-grid{
+    display: grid;
+    gap:1rem;
+    grid-template-rows: auto;
+    padding: 50px;
+    top: 500px;
+}
+.grid-item{
+    text-align: center;
+    padding: 3px;
+    /*border: 2px black solid*/;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homepage:nth-child(1){
+    grid-column: 1 / span 3;
+    
+}
+.homepage:nth-child(2){
+    grid-column: 2/2;
+}
+.homepage:nth-child(3){
+    grid-column: 1;
+    grid-row: 2;
+    height:min-content
+}
+.homepage:nth-child(4){
+    grid-column: 1;
+    grid-row: 3;
+    height:min-content
+}
+.homepage:nth-child(8){
+    grid-column:1 / span 3
+
+}
+/*.homepage:nth-child(6){
+
+}
+.homepage:nth-child(7){
+    
+}*/
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.navlogo{
+    height: 150px;
+    position: relative;
+    margin:0px
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(234, 0, 0, 0.782);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    margin: 0;
+}
+#navbar a{
+    color:rgb(255, 255, 255)
+}
+.baritems{
+    margin:10px;
+    padding:10px;
+}
+
+#footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(234, 0, 0);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height:20px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer a{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    background-color: bisque;
+}
+.navlogo{
+    height: 150px;
+    position: relative;
+    margin:0px
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(234, 0, 0, 0.782);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    margin: 0;
+}
+#navbar a{
+    color:rgb(255, 255, 255)
+}
+.baritems{
+    margin:10px;
+    padding:10px;
+}
+
+#footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(234, 0, 0);
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    height:20px;
+    margin:0;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer a{
+    color: rgb(255, 255, 255);
+}
+.pageheader{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px white;
+}
+table, th, td{
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: 2px black solid;
+}
+.map{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.twitter{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
